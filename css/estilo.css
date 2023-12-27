@@ -1,0 +1,29 @@
+ 
+.titulo{
+   color:rgb(244, 243, 245);
+   position:relative;
+   padding-top: 7pt;
+   padding-left: 7pt;
+   margin-top: 5px;
+   float: right;
+}
+
+.inicio{
+   padding-right: 10px;
+   padding-top: 7px;
+   text-decoration: none;
+}
+
+.tabelaLista{
+   width: "100px";
+}
+
+legend {
+   font-size: 16px;
+ }
+ 
+ #titulotext {
+   width: 10px;
+ }
+
+ 
