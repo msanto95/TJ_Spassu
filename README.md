@@ -1,5 +1,5 @@
 # TJ_Spassu
-Este projeto foi desenvolvido: Front-end HTML, CSS, Bootstrap, Back-end PHP versão -----, banco de dados relacional postgree versão -------.
+Este projeto foi desenvolvido: Front-end HTML, CSS, Bootstrap, Back-end PHP versão 8.0.30, banco de dados relacional PostgreSQL versão 10.23.
 
 # Como executar o projeto localmente
 Para executa-lo em seu computador, siga estas etapas:
@@ -8,14 +8,10 @@ Clone o repositório:
 ```
 git clone https://github.com/msanto95/TJ_Spassu.git
 ```
-Crie um novo banco de dados conforme mencionado em env.local.php.
+Instale o PostgreSQL versão 10.23;
 
-Importe o php.sql arquivo para o banco de dados recém-criado.
+Crie o banco de dados a partir do script SQL que está dentro do arquivo script_BD.sql localizado na pasta scriptBD
 
-Execute o seguinte comando no diretório do projeto:
-```
-php -S localhost:9000 -t public
-```
-Abra seu navegador e navegue até http://localhost:9000 para visualizar as páginas.
-Observe que dependendo da configuração do seu ambiente, você poderá encontrar alguns erros.
+Abra seu navegador e acesse http://localhost/cadlivro
+
 
